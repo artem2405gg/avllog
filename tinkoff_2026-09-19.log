@@ -1,0 +1,96 @@
+[2026-09-19 01:52:17] Init | HTTP 200
+REQ: {"Amount":6000,"OrderId":"21","Description":"Комиссия платформы — заказ #56","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=21","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=21","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Комиссия платформы — заказ #56","Price":6000,"Quantity":1,"Amount":6000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"7bf42ac1a570c85bc9e697bf3636146fe95ac5d766e8d7a20fd9fe1372cc64b1"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9272114244","OrderId":"21","Amount":6000,"PaymentURL":"https:\/\/pay.tbank.ru\/ZNSMKbzy"}
+---
+[2026-09-19 01:52:55] GetState | HTTP 200
+REQ: {"PaymentId":"9272114244","TerminalKey":"1789664505075DEMO","Token":"237cfd0f682d59efe4ecd47cef770b98eab1389edfe519cea0f7bae5261b339a"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272114244","OrderId":"21","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:52:58] GetState | HTTP 200
+REQ: {"PaymentId":"9272114244","TerminalKey":"1789664505075DEMO","Token":"237cfd0f682d59efe4ecd47cef770b98eab1389edfe519cea0f7bae5261b339a"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272114244","OrderId":"21","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:53:01] GetState | HTTP 200
+REQ: {"PaymentId":"9272114244","TerminalKey":"1789664505075DEMO","Token":"237cfd0f682d59efe4ecd47cef770b98eab1389edfe519cea0f7bae5261b339a"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272114244","OrderId":"21","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:54:55] Init | HTTP 200
+REQ: {"Amount":6000,"OrderId":"22","Description":"Комиссия платформы — заказ #56","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=22","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=22","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Комиссия платформы — заказ #56","Price":6000,"Quantity":1,"Amount":6000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"a827a759d4ddf90ae2764940a32779f79d31e98f37340e687c2fa62f67e4e2f8"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9272120059","OrderId":"22","Amount":6000,"PaymentURL":"https:\/\/pay.tbank.ru\/jRGbNrbJ"}
+---
+[2026-09-19 01:55:14] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:18] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:21] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:25] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:29] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:33] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:37] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:37] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:41] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:45] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:49] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:53] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:55:57] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:56:01] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:56:05] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:56:09] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 01:58:56] GetState | HTTP 200
+REQ: {"PaymentId":"9272120059","TerminalKey":"1789664505075DEMO","Token":"589ea96b860ab09049d360b772359771a738ab6c515b642c7eeaa1e6e0392be1"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272120059","OrderId":"22","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---
+[2026-09-19 02:01:04] Init | HTTP 200
+REQ: {"Amount":6000,"OrderId":"23","Description":"Комиссия платформы — заказ #57","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=23","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=23","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Комиссия платформы — заказ #57","Price":6000,"Quantity":1,"Amount":6000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"fd1624131dcea39a65754a0a60199e827917d815135d607977b108a88bc20ac2"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9272133522","OrderId":"23","Amount":6000,"PaymentURL":"https:\/\/pay.tbank.ru\/x18pThfw"}
+---
+[2026-09-19 02:01:21] GetState | HTTP 200
+REQ: {"PaymentId":"9272133522","TerminalKey":"1789664505075DEMO","Token":"86061b98bcd4307ee06c8271e98e5b207afcc33b2498a7cc8e86867630340af7"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9272133522","OrderId":"23","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":6000}
+---

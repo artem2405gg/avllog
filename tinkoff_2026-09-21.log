@@ -1,0 +1,12 @@
+[2026-09-21 11:29:50] Init | HTTP 200
+REQ: {"Amount":199000,"OrderId":"24","Description":"Подписка Базовый — AVL Logistic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=24","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=24","Receipt":{"Email":"andryhavini@mail.ru","Phone":"7 (921) 532-96-82","Taxation":"usn_income","Items":[{"Name":"Подписка Базовый — AVL Logistic","Price":199000,"Quantity":1,"Amount":199000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"ecd6b29b3f048df1726b535feeb276b8cdea093f120564ace33e6f9ee77eba46"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9286626518","OrderId":"24","Amount":199000,"PaymentURL":"https:\/\/pay.tbank.ru\/4dnDHVUx"}
+---
+[2026-09-21 12:53:50] Init | HTTP 200
+REQ: {"Amount":3000,"OrderId":"25","Description":"Комиссия платформы — заказ #66","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=25","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=25","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Комиссия платформы — заказ #66","Price":3000,"Quantity":1,"Amount":3000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"ef42a4a442006eaba387e2af82efc4d444f205d477219e2af1adf6031a5fca74"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9287124549","OrderId":"25","Amount":3000,"PaymentURL":"https:\/\/pay.tbank.ru\/BXnySQ1s"}
+---
+[2026-09-21 12:54:47] GetState | HTTP 200
+REQ: {"PaymentId":"9287124549","TerminalKey":"1789664505075DEMO","Token":"e0857ac7c5da015a9aa2abf2935379efb2dcc7dd650e7dc28504c2c72328741a"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9287124549","OrderId":"25","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":3000}
+---

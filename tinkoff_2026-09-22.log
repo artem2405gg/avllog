@@ -1,0 +1,52 @@
+[2026-09-22 00:20:27] GetState | HTTP 200
+REQ: {"PaymentId":"9286626518","TerminalKey":"1789664505075DEMO","Token":"dc86d4e6c8446990c63e99776b65d764e7e4785834bae93fec2500dcaeae1b3b"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9286626518","OrderId":"24","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":199000}
+---
+[2026-09-22 00:21:05] Init | HTTP 200
+REQ: {"Amount":10000,"OrderId":"26","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #55 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=26&order_id=55","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=26&order_id=55","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #55 на основании Публичной оферты","Price":10000,"Quantity":1,"Amount":10000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"21546e310cf65fd06206e55a212fb88b5679d4474b73777889ae58f6be6ec8c6"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9290370337","OrderId":"26","Amount":10000,"PaymentURL":"https:\/\/pay.tbank.ru\/l4LU3rI7"}
+---
+[2026-09-22 00:21:30] GetState | HTTP 200
+REQ: {"PaymentId":"9290370337","TerminalKey":"1789664505075DEMO","Token":"d043a4bc3df9be18b615746ed858ddebabaee35fbcc890a284565547dddca51a"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9290370337","OrderId":"26","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":10000}
+---
+[2026-09-22 00:26:03] Init | HTTP 200
+REQ: {"Amount":100000,"OrderId":"27","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #72 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=27&order_id=72","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=27&order_id=72","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #72 на основании Публичной оферты","Price":100000,"Quantity":1,"Amount":100000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"afee6894d01194e471c8ebfe6e200682ea080cb7f2fa149e35dd47d56508ec70"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9290381536","OrderId":"27","Amount":100000,"PaymentURL":"https:\/\/pay.tbank.ru\/HLaiHmo1"}
+---
+[2026-09-22 00:26:31] GetState | HTTP 200
+REQ: {"PaymentId":"9290381536","TerminalKey":"1789664505075DEMO","Token":"d2c1f698fbba78d3d5077f52d8dae70f4511c8ff34cf7b24fe84eb055d724dad"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9290381536","OrderId":"27","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":100000}
+---
+[2026-09-22 00:48:48] Init | HTTP 200
+REQ: {"Amount":100000,"OrderId":"28","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #73 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=28&order_id=73","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=28&order_id=73","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #73 на основании Публичной оферты","Price":100000,"Quantity":1,"Amount":100000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"4c009898deac3a8ad74b51d6bbc277f4d2752b70d3330999625d2d1d5644ffb9"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9290433681","OrderId":"28","Amount":100000,"PaymentURL":"https:\/\/pay.tbank.ru\/KKUNORJf"}
+---
+[2026-09-22 00:49:04] GetState | HTTP 200
+REQ: {"PaymentId":"9290433681","TerminalKey":"1789664505075DEMO","Token":"cd57fa61a8d6bc8faa694c1a72cbc7b693cef5857f66113b343f50bdad9ab4d3"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9290433681","OrderId":"28","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":100000}
+---
+[2026-09-22 00:56:58] Init | HTTP 200
+REQ: {"Amount":100000,"OrderId":"29","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #74 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=29&order_id=74","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=29&order_id=74","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #74 на основании Публичной оферты","Price":100000,"Quantity":1,"Amount":100000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"6b62a48348544df1bb25c2e7f0d0b3a7dba21f77702292b61fe106b73cc8a8ec"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9290451230","OrderId":"29","Amount":100000,"PaymentURL":"https:\/\/pay.tbank.ru\/u7eXDXIx"}
+---
+[2026-09-22 00:57:17] GetState | HTTP 200
+REQ: {"PaymentId":"9290451230","TerminalKey":"1789664505075DEMO","Token":"2ce47948144d74e8b5f30a3ab093475bd1439827d2e2b06ff6ccf266dbd491b5"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9290451230","OrderId":"29","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":100000}
+---
+[2026-09-22 02:12:18] Init | HTTP 200
+REQ: {"Amount":200000,"OrderId":"44","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #77 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=44&order_id=77","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=44&order_id=77","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #77 на основании Публичной оферты","Price":200000,"Quantity":1,"Amount":200000,"Tax":"none"}]},"TerminalKey":"1789664505095","Token":"1685ca1076a90861ad8919941fc69ead2f7d1a2e0028d740ba518e3f2ac6d3e3"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505095","Status":"NEW","PaymentId":"9290600965","OrderId":"44","Amount":200000,"PaymentURL":"https:\/\/pay.tbank.ru\/g0ekpWt2"}
+---
+[2026-09-22 22:41:31] Init | HTTP 200
+REQ: {"Amount":200000,"OrderId":"45","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #79 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=45&order_id=79","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=45&order_id=79","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #79 на основании Публичной оферты","Price":200000,"Quantity":1,"Amount":200000,"Tax":"none"}]},"TerminalKey":"1789664505095","Token":"055d30882154b1622af3435634084258c0ba33a524cc498f1b332b27d04b3b89"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505095","Status":"NEW","PaymentId":"9296020125","OrderId":"45","Amount":200000,"PaymentURL":"https:\/\/pay.tbank.ru\/Z6ayJ9zC"}
+---
+[2026-09-22 22:50:03] Init | HTTP 200
+REQ: {"Amount":100000,"OrderId":"46","Description":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #80 на основании Публичной оферты","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=46&order_id=80","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=46&order_id=80","Receipt":{"Email":"artfifa947@gmail.com","Phone":"8 921 541-14-81","Taxation":"usn_income","Items":[{"Name":"Агентское вознаграждение AVL Logistic + оплата перевозки по заказу #80 на основании Публичной оферты","Price":100000,"Quantity":1,"Amount":100000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"7c09cdb084e45a61d9f59feca5d6a9ace7dfe74f9d619a73da87b6be2fd0b571"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9296042530","OrderId":"46","Amount":100000,"PaymentURL":"https:\/\/pay.tbank.ru\/Hs9m4zlJ"}
+---
+[2026-09-22 22:50:14] GetState | HTTP 200
+REQ: {"PaymentId":"9296042530","TerminalKey":"1789664505075DEMO","Token":"2e4edf1aa0bb077dd1b8d6a59034a7a6db9664d8740aded87b273634d10d28fa"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9296042530","OrderId":"46","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":100000}
+---

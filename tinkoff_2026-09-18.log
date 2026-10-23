@@ -1,0 +1,32 @@
+[2026-09-18 00:07:00] Init | HTTP 200
+REQ: {"Amount":10000,"OrderId":"999999","Description":"Test","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success","FailURL":"https:\/\/avllogist.ru\/payment\/fail","TerminalKey":"1789664505075DEMO","Token":"cacb5904eb49e8f2d564ce0a18462b9fadc863121e049ec4f9e0a3c3d14638c0"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9264551882","OrderId":"999999","Amount":10000,"PaymentURL":"https:\/\/pay.tbank.ru\/AIm9BFMr"}
+---
+[2026-09-18 00:21:48] Init | HTTP 200
+REQ: {"Amount":499000,"OrderId":"18","Description":"Подписка Pro — AVL Logistic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=18","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=18","Receipt":{"Email":"andryhavini@mail.ru","Phone":"7 (921) 532-96-82","Taxation":"usn_income","Items":[{"Name":"Подписка Pro — AVL Logistic","Price":499000,"Quantity":1,"Amount":499000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"d8a007f5083529ab74ac549b6b65f96efed3cf49f9efd6757f7e97c8e4fa7134"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9264585140","OrderId":"18","Amount":499000,"PaymentURL":"https:\/\/pay.tbank.ru\/rToLPgoS"}
+---
+[2026-09-18 00:30:37] Init | HTTP 200
+REQ: {"Amount":199000,"OrderId":"19","Description":"Подписка Базовый — AVL Logistic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=19","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=19","Receipt":{"Email":"andryhavini@mail.ru","Phone":"7 (921) 532-96-82","Taxation":"usn_income","Items":[{"Name":"Подписка Базовый — AVL Logistic","Price":199000,"Quantity":1,"Amount":199000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"2b4c92de28ac6b378e4c7e2d3a1984decf15780c831e73a401996597d8b8067f"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9264607670","OrderId":"19","Amount":199000,"PaymentURL":"https:\/\/pay.tbank.ru\/0WR5jgRS"}
+---
+[2026-09-18 00:36:33] GetState | HTTP 200
+REQ: {"PaymentId":"9264607670","TerminalKey":"1789664505075DEMO","Token":"3447bf03b8fff90993deec25e026bdf9d20ec5bdf4d55131c4dd8e95b451b564"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9264607670","OrderId":"19","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":199000}
+---
+[2026-09-18 00:36:34] GetState | HTTP 200
+REQ: {"PaymentId":"9264607670","TerminalKey":"1789664505075DEMO","Token":"3447bf03b8fff90993deec25e026bdf9d20ec5bdf4d55131c4dd8e95b451b564"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9264607670","OrderId":"19","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":199000}
+---
+[2026-09-18 00:37:07] Init | HTTP 200
+REQ: {"Amount":199000,"OrderId":"20","Description":"Подписка Базовый — AVL Logistic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success?invoice=20","FailURL":"https:\/\/avllogist.ru\/payment\/fail?invoice=20","Receipt":{"Email":"andryhavini@mail.ru","Phone":"7 (921) 532-96-82","Taxation":"usn_income","Items":[{"Name":"Подписка Базовый — AVL Logistic","Price":199000,"Quantity":1,"Amount":199000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"fb9682f043e2364a53037af7b4dc6bb5c736e14b86d96054f83237d358ac55aa"}
+RESP: {"Success":true,"ErrorCode":"0","TerminalKey":"1789664505075DEMO","Status":"NEW","PaymentId":"9264623493","OrderId":"20","Amount":199000,"PaymentURL":"https:\/\/pay.tbank.ru\/zUQzu3sH"}
+---
+[2026-09-18 00:37:23] GetState | HTTP 200
+REQ: {"PaymentId":"9264623493","TerminalKey":"1789664505075DEMO","Token":"dd8dd7f6da55825234d2831a9994d94fc7b01c6a85386eae6740884077fc6322"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9264623493","OrderId":"20","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":199000}
+---
+[2026-09-18 00:37:40] GetState | HTTP 200
+REQ: {"PaymentId":"9264585140","TerminalKey":"1789664505075DEMO","Token":"18319684b624442a06b3b71a6c680c2df16a5fc8442181fcbadd1715e9e271fe"}
+RESP: {"Success":true,"ErrorCode":"0","Message":"OK","TerminalKey":"1789664505075DEMO","Status":"CONFIRMED","PaymentId":"9264585140","OrderId":"18","Params":[{"Key":"Route","Value":"ACQ"},{"Key":"Source","Value":"cards"}],"Amount":499000}
+---

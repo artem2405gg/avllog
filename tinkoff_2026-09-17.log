@@ -1,0 +1,8 @@
+[2026-09-17 23:14:29] Init | HTTP 200
+REQ: {"Amount":199000,"OrderId":"16","Description":"Test Подписка Basic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success","FailURL":"https:\/\/avllogist.ru\/payment\/fail","Receipt":{"Email":"test@avllogist.ru","Taxation":"usn_income","Items":[{"Name":"Test Подписка Basic","Price":199000,"Quantity":1,"Amount":199000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"97e2257d481ad30140f633128c402d16da31a732baad7005f934ad233193ef2d"}
+RESP: {"Success":false,"ErrorCode":"204","Message":"Неверные параметры.","Details":"Неверный токен. Проверьте пару TerminalKey\/SecretKey."}
+---
+[2026-09-17 23:14:31] Init | HTTP 200
+REQ: {"Amount":199000,"OrderId":"17","Description":"Test Подписка Basic","NotificationURL":"https:\/\/avllogist.ru\/api\/tinkoff_webhook.php","SuccessURL":"https:\/\/avllogist.ru\/payment\/success","FailURL":"https:\/\/avllogist.ru\/payment\/fail","Receipt":{"Email":"test@avllogist.ru","Taxation":"usn_income","Items":[{"Name":"Test Подписка Basic","Price":199000,"Quantity":1,"Amount":199000,"Tax":"none"}]},"TerminalKey":"1789664505075DEMO","Token":"8cebe5089f9bb410607bd02661f5b63ddbc9126a3a521aa2056592157a67a50d"}
+RESP: {"Success":false,"ErrorCode":"204","Message":"Неверные параметры.","Details":"Неверный токен. Проверьте пару TerminalKey\/SecretKey."}
+---
