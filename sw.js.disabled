@@ -1,0 +1,64 @@
+// sw.js — правильный Service Worker для AVL Logistic
+// Не перехватывает /api/* и POST-запросы
+
+const CACHE_NAME = 'avl-v1';
+const API_PREFIX = '/api/';
+
+self.addEventListener('install', function(event) {
+    console.log('[SW] Установлен');
+    self.skipWaiting();  // сразу активируем новую версию
+});
+
+self.addEventListener('activate', function(event) {
+    console.log('[SW] Активирован');
+    event.waitUntil(
+        caches.keys().then(function(keys) {
+            return Promise.all(
+                keys.filter(function(key) { return key !== CACHE_NAME; })
+                    .map(function(key) { return caches.delete(key); })
+            );
+        }).then(function() {
+            return self.clients.claim();
+        })
+    );
+});
+
+self.addEventListener('fetch', function(event) {
+    const url = new URL(event.request.url);
+
+    // 1. НЕ перехватываем API-запросы (там POST, авторизация, Tinkoff)
+    if (url.pathname.startsWith(API_PREFIX)) {
+        return;  // пропускаем — идёт напрямую на сервер
+    }
+
+    // 2. НЕ перехватываем не-GET запросы
+    if (event.request.method !== 'GET') {
+        return;
+    }
+
+    // 3. НЕ перехватываем запросы к другим доменам (Tinkoff, Yandex)
+    if (url.origin !== self.location.origin) {
+        return;
+    }
+
+    // 4. Для GET-запросов — network-first с fallback на кэш
+    event.respondWith(
+        fetch(event.request)
+            .then(function(response) {
+                // Кэшируем только успешные ответы
+                if (response && response.status === 200) {
+                    const responseClone = response.clone();
+                    caches.open(CACHE_NAME).then(function(cache) {
+                        cache.put(event.request, responseClone);
+                    });
+                }
+                return response;
+            })
+            .catch(function() {
+                // Если сеть недоступна — берём из кэша
+                return caches.match(event.request).then(function(cached) {
+                    return cached || new Response('Offline', { status: 503 });
+                });
+            })
+    );
+});

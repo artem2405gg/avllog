@@ -1,0 +1,26 @@
+User-agent: *
+Allow: /
+
+# Запрещённые разделы
+Disallow: /admin/
+Disallow: /api/
+Disallow: /app/
+Disallow: /templates/
+Disallow: /profile/edit
+Disallow: /logout
+Disallow: /invoices
+Disallow: /*?
+
+# Разрешаем изображения
+Allow: /uploads/
+Allow: /assets/
+Allow: /images/
+
+# Sitemap
+Sitemap: https://avllogist.ru/sitemap.xml
+
+# Host (для Яндекса)
+Host: https://avllogist.ru
+
+# Crawl delay
+Crawl-delay: 1
